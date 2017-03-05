@@ -1,9 +1,8 @@
 // plik scripts.js
 
-
-var a = prompt('Pole trójkąta o podstawie a:'), h = prompt('i wysokości h:'), triangleArea = ('wynosi:');
-
-triangleArea = (a * h / 2);
+var a = prompt('Pole trójkąta o podstawie a:'); 
+var h = prompt('i wysokości h:'); 
+var triangleArea = (a * h / 2); 
 
 document.getElementById('demo').innerHTML = triangleArea;
 
